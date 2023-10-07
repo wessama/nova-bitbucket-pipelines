@@ -1,5 +1,8 @@
 
-# Display Bitbucket pipeline status in Laravel Nova
+# Display Bitbucket Pipeline status in Laravel Nova
+
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Total Downloads][ico-downloads]][link-downloads]
 
 ## Installation
 
@@ -63,3 +66,10 @@ If you discover any security related issues, please email wessam.ah@outlook.com 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+[ico-version]: https://img.shields.io/packagist/v/wessama/nova-bitbucket-pipelines.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/wessama/nova-bitbucket-pipelines.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/wessama/nova-bitbucket-pipelines
+[link-downloads]: https://packagist.org/packages/wessama/nova-bitbucket-pipelines
+[link-author]: https://github.com/wessama
