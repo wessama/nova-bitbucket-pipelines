@@ -1,0 +1,40 @@
+{
+    "name": "wessama/nova-bitbucket-pipelines",
+    "description": "A Laravel Nova card for showing the status of the latest Bitbucket Pipelines build.",
+    "version": "1.0",
+    "keywords": [
+        "laravel",
+        "nova",
+        "bitbucket",
+        "pipelines"
+    ],
+    "license": "proprietary",
+    "require": {
+        "php": "^8.2",
+        "laravel/nova": "^4.0"
+    },
+    "authors": [
+        {
+            "name": "Wessam Ahmed",
+            "email": "wessam.ahmed@connhealth.com",
+            "role": "Developer"
+        }
+      ],
+    "autoload": {
+        "psr-4": {
+            "WessamA\\NovaBitbucketPipelines\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WessamA\\NovaBitbucketPipelines\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
