@@ -1,7 +1,6 @@
 {
     "name": "wessama/nova-bitbucket-pipelines",
     "description": "A Laravel Nova card for showing the status of the latest Bitbucket Pipelines build.",
-    "version": "1.0",
     "keywords": [
         "laravel",
         "nova",
